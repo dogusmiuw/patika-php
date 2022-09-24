@@ -1,0 +1,63 @@
+body{
+    background-color: #fad0f9;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1,h2,h3{
+    text-align: center;
+}
+.sub-header{
+    width: 60%;
+    margin: 0 auto;
+}
+nav{
+    padding: 0;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    background-color: #2e2e2e;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+nav ul li{
+    padding: 1rem;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+p{
+    text-align: center;
+}
+article{
+    width: 60%;
+    margin: 0 auto;
+}
+ul{
+    padding-inline-start: 0;
+}
+article ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#urunler{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#urunler img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.txt-left{
+    text-align: left;
+}
