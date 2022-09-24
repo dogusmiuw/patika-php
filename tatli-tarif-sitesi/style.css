@@ -1,0 +1,15 @@
+body{
+    background-color: #E0C9A9;
+}
+h1,h2{
+    color: #732C10;
+    font-style: italic;
+}
+.tarif{
+    margin: 0 auto;
+    width: 60vw;
+}
+h3{
+    font-family: Consolas;
+    text-align:right;
+}
